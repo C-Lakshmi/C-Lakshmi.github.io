@@ -83,12 +83,12 @@ span{
 }
 .navbar .fa-solid.fa-magnifying-glass{
     margin-top: 15px;
-    margin-left:568px;
+    margin-left:555px;
 }
 #try {
     padding-left: 15px;
     background-color: hsl(0, 0%, 92%);
-    height: 30px;
+    height: 32px;
     align-content: center;
     display: block;
 }
@@ -108,18 +108,17 @@ span{
 }
 .fa-regular.fa-circle.fa-2xs{
     font-size: 5px;
-    margin-left: 4px;
-    margin-bottom: 0px;
+    margin-left: 4.5px;
 }
 .image{
     display: inline-block;
     
 }
 #img{
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 15px;
     width: 430px;
-    height: 400px;
+    height: 430px;
     background-image: url("images/news2.png");
     background-repeat: no-repeat;
     margin-right: 18px;
@@ -127,42 +126,41 @@ span{
     border-radius: 7px;
 }
 #img2{
-    margin-top: 40px;
-    height: 400px;
-    width: 280px;
+    margin-top: 50px;
+    height: 430px;
+    width: 250px;
     background-image: url("images/model.jpg");
     background-repeat: no-repeat;
     float: left;
     border-radius: 7px;
 }
 #coffee{
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 18px;
-    height: 189.5px;
+    height: 205.5px;
     width: 200px;
     background-image: url("images/coffee.jpg");
     background-repeat: no-repeat;
     float: left;
     border-radius: 7px;
+    
 }
 #sci{
-    margin-top: 22px;
+    margin-top: 41px;
     margin-left: 0px;
-    height: 189.5px;
+    height: 205.5px;
     width: 200px;
     background-image: url("images/science.jpg");
     background-repeat: no-repeat;   
     border-radius: 7px;
     float: left;
+   
 }
 #right{
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
     font-weight: lighter;
     margin-right: 20px;
-    float: left; /*This makes Latest and Popular inline*/
-    border: 1px solid black;
-    border-bottom: 2px solid blue;
+    float: right; /*This makes Latest and Popular inline*/
     
 }
 #right ul{
@@ -178,7 +176,7 @@ span{
     text-align: center;
 }
 #right a{
-    width: 80px;
+    width: 120px;
     border-radius: 5px;
     display: block;
     text-align: center;
@@ -189,10 +187,9 @@ span{
     color: white;
 }
 #right img{
-    margin-top: 10px;
-    margin-left: 0px;
-    height: 65px;
-    width: 65px;
+    margin: 5px;
+    height: 80px;
+    width: 80px;
     border-radius: 5px;
     float: left;
 }
@@ -203,14 +200,19 @@ span{
 .snippet{
     display: inline-block;
 }
-.one{
-    padding-left: 5px;
-    display: block;
-    width: 211px;
+.set{
+    border-radius: 7px;
     margin-top: 10px;
+    height: 93px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.one{
+    padding-top: 8px;
+    display: block;
+    margin-top: 5px;
     margin-left: 0px;
-    overflow: clip;
-    border: 2px solid blue;
+    overflow: clip; 
 }
 
 .snippet{
@@ -227,12 +229,14 @@ span{
 }
 
 h2{
+    margin-top: 18px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 13px;
     font-weight: lighter;
 }
 h1{
+    margin-top: 18px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 13px;
@@ -240,7 +244,7 @@ h1{
 }
 .smallImg button{
     margin-left: 27px;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -255,18 +259,40 @@ h3{
 }
 .x{
     display: inline-block;
-    align-content: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    align-content:center ;
+    margin-left: 0px;
+}
+.x2{
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    align-content:center;
+    margin-left: 0px;
+    margin-top: -50px;
 }
 .elite{
     border-radius: 50%;
     width: 30px;
-    margin-left: 10px;
-    align-content: center;
+    margin-left: 25px;
+    margin-bottom: -10px;
 }
 .theme{
 float: right;
-margin-left: 0px;
-align-content: center;
+height: 30px;
+align-content:center ;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+.theme2{
+float: left;
+height: 20px;
+margin-top: 5px;
+align-content:center ;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+margin-right: 35px;
 }
