@@ -1,0 +1,268 @@
+@font-face {
+    src: url("Casad-Serial Bold.ttf");
+    font-family: Casad-Serial;
+}
+
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 96%);
+}
+header{
+    background-image: url("images/pic2.png");
+    background-repeat: repeat-x;
+    color: white;
+    display: inline block;
+    height: 65px;
+    align-content: center;
+    padding-left: 8px;
+    
+}
+p{
+    display: inline-block;
+    
+}
+span{
+    display:inline-block
+}
+.large{
+    font-size: 55px;
+    font-family: Casad-Serial;
+    
+}
+.small{
+    font-size: 40px;   
+    font-family: Casad-Serial; 
+}
+.navbar ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    margin-left: 0px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+}
+.navbar #home{
+    padding-left: 20px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+}
+#latest{
+    background-color: black;
+    color: white;
+}
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar a:hover #drop{
+    background-color: black;
+    color: white;
+}
+
+#drop{
+    display: block;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    color: black;
+}
+.navbar .fa-solid.fa-magnifying-glass{
+    margin-top: 15px;
+    margin-left:568px;
+}
+#try {
+    padding-left: 15px;
+    background-color: hsl(0, 0%, 92%);
+    height: 30px;
+    align-content: center;
+    display: block;
+}
+#news{
+    font-size: 12px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+}
+#local{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32px;
+    font-size: 12px; 
+}
+.fa-solid.fa-cloud-moon-rain{
+    margin-left: 682px;
+    align-content: center;
+}
+.fa-regular.fa-circle.fa-2xs{
+    font-size: 5px;
+    margin-left: 4px;
+    margin-bottom: 0px;
+}
+.image{
+    display: inline-block;
+    
+}
+#img{
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 430px;
+    height: 400px;
+    background-image: url("images/news2.png");
+    background-repeat: no-repeat;
+    margin-right: 18px;
+    float: left;
+    border-radius: 7px;
+}
+#img2{
+    margin-top: 40px;
+    height: 400px;
+    width: 280px;
+    background-image: url("images/model.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    border-radius: 7px;
+}
+#coffee{
+    margin-top: 40px;
+    margin-left: 18px;
+    height: 189.5px;
+    width: 200px;
+    background-image: url("images/coffee.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    border-radius: 7px;
+}
+#sci{
+    margin-top: 22px;
+    margin-left: 0px;
+    height: 189.5px;
+    width: 200px;
+    background-image: url("images/science.jpg");
+    background-repeat: no-repeat;   
+    border-radius: 7px;
+    float: left;
+}
+#right{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: lighter;
+    margin-right: 20px;
+    float: left; /*This makes Latest and Popular inline*/
+    
+    
+}
+#right ul{
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#right li{
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+#right a{
+    width: 80px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+
+}
+#right a:hover{
+    background-color: black;
+    color: white;
+}
+#right img{
+    margin-top: 10px;
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    float: left;
+}
+.i1{
+    display: block;
+    margin-right: 2px;
+}
+.snippet{
+    display: inline-block;
+}
+.one{
+    padding-left: 5px;
+    display: block;
+    width: 200px;
+    margin: 10px;
+    overflow: clip;
+}
+
+.snippet{
+    display: block;
+}
+.img button{
+    margin-left: 27px;
+    margin-top: 230px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: inline;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13px;
+    font-weight: lighter;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13px;
+    font-weight: lighter;
+}
+.smallImg button{
+    margin-left: 27px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: inline;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13px;
+    font-weight: lighter;
+}
+.x{
+    display: inline-block;
+    align-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elite{
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 10px;
+    align-content: center;
+}
+.theme{
+float: right;
+margin-left: 0px;
+align-content: center;
+}
