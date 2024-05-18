@@ -146,7 +146,7 @@ span{
     
 }
 #sci{
-    margin-top: 41px;
+    margin-top: 24px;
     margin-left: 0px;
     height: 205.5px;
     width: 200px;
@@ -257,11 +257,11 @@ h3{
     margin-left: 13px;
     font-weight: lighter;
 }
-.x{
-    display: inline-block;
+#img .x{ 
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     height: 30px;
+    width: 260px;
     align-content:center ;
     margin-left: 0px;
 }
@@ -272,13 +272,14 @@ h3{
     height: 30px;
     align-content:center;
     margin-left: 0px;
-    margin-top: -50px;
+    
 }
 .elite{
     border-radius: 50%;
     width: 30px;
     margin-left: 25px;
-    margin-bottom: -10px;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 .theme{
 float: right;
@@ -288,11 +289,42 @@ font-family: Arial, Helvetica, sans-serif;
 color: white;
 }
 .theme2{
-float: left;
+float: right;
 height: 20px;
 margin-top: 5px;
 align-content:center ;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
-margin-right: 35px;
+margin-right: 55px;
+}
+#img2 .theme2{
+    margin-top: -9px;
+}
+#img2 .x{
+    margin-right: 50px;
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content:center ;
+    margin-left: 0px;
+}
+#coffee .x2{
+    float: right;
+    margin-top: 0px;
+    margin-right: 80px;
+}
+#coffee #el1{
+    margin-bottom: -32px;
+}
+#sci .elite{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+#sci .x2 {
+    margin-top: -15px;
+    margin-right: 95px;
+}
+#sci .theme2{
+    margin-top: -5px;
+    margin-right: 60px;
 }
