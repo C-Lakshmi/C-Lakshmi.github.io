@@ -82,8 +82,8 @@ span{
     color: black;
 }
 .navbar .fa-solid.fa-magnifying-glass{
-    margin-top: 2vw;
-    margin-left:44%;
+    margin-top: 2vh;
+    margin-left:555px;
 }
 #try {
     padding-left: 15px;
@@ -330,7 +330,4 @@ margin-right: 55px;
 #sci .theme2{
     margin-top: -5px;
     margin-right: 60px;
-}
-@media only screen and (max-width: 700px) {
-
 }
